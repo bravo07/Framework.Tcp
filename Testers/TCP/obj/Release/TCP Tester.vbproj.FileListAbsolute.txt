@@ -1,0 +1,43 @@
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\TCP Tester.exe.config
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\TCP Tester.exe
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\TCP Tester.pdb
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Release\TCP Tester.vbprojResolveAssemblyReference.cache
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Release\TCP_Tester.frmMain.resources
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Release\TCP_Tester.Resources.resources
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Release\TCP Tester.vbproj.GenerateResource.Cache
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Release\TCP Tester.exe
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Release\TCP Tester.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\Framework.TCP.Client.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\Framework.TCP.Protocol.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\Framework.TCP.Server.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\Framework.Threads.Task.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\Framework.TCP.Client.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\Framework.TCP.Protocol.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\Framework.TCP.Server.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Release\Framework.Threads.Task.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\Framework.TCP\bin\Release\TCP Tester.exe.config
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\Framework.TCP\obj\Release\TCP Tester.exe
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\Framework.TCP\obj\Release\TCP Tester.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\obj\Release\TCP Tester.vbprojResolveAssemblyReference.cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\obj\Release\TCP_Tester.frmMain.resources
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\obj\Release\TCP_Tester.Resources.resources
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\obj\Release\TCP Tester.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\TCP Tester.exe.config
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\TCP Tester.exe
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\TCP Tester.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.Compression.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.Serialization.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.TCP.Client.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.TCP.Protocol.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.TCP.Server.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.Threads.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.Compression.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.Serialization.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.TCP.Client.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.TCP.Protocol.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.TCP.Server.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.Threads.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\obj\Release\TCP Tester.exe
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\obj\Release\TCP Tester.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.ConfigProvider.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Testers\TCP\bin\Release\Framework.ConfigProvider.pdb

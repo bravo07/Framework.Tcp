@@ -1,0 +1,6 @@
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Threads\bin\Release\Framework.Threads.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Threads\bin\Release\Framework.Threads.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Threads\obj\Release\Framework.Threads.Resources.resources
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Threads\obj\Release\Framework.Threads.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Threads\obj\Release\Framework.Threads.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Threads\obj\Release\Framework.Threads.pdb

@@ -1,0 +1,21 @@
+C:\Users\Barret\AppData\Local\Temporary Projects\TCP Tester\bin\Debug\TCP Tester.exe.config
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP Tester.exe.config
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP Tester.exe
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP Tester.pdb
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP Tester.xml
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Debug\TCP_Tester.frmMain.resources
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Debug\TCP_Tester.Resources.resources
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Debug\TCP Tester.vbproj.GenerateResource.Cache
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Debug\TCP Tester.exe
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Debug\TCP Tester.xml
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Debug\TCP Tester.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\obj\Debug\TCP Tester.vbprojResolveAssemblyReference.cache
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP.Client.dll
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP.Protocol.dll
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP.Server.dll
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP.Client.pdb
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP.Protocol.pdb
+c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\Debug\TCP.Server.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\TCP Tester.exe.config
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP Tester.exe
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP Tester.pdb

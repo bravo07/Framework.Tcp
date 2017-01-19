@@ -1,0 +1,6 @@
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Serialization\bin\Release\Framework.Serialization.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Serialization\bin\Release\Framework.Serialization.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Serialization\obj\Release\Framework.Serialization.Resources.resources
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Serialization\obj\Release\Framework.Serialization.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Serialization\obj\Release\Framework.Serialization.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Serialization\obj\Release\Framework.Serialization.pdb

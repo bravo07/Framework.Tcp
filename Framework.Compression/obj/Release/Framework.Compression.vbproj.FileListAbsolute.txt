@@ -1,0 +1,6 @@
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Compression\bin\Release\Framework.Compression.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Compression\bin\Release\Framework.Compression.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Compression\obj\Release\Framework.Compression.Resources.resources
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Compression\obj\Release\Framework.Compression.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Compression\obj\Release\Framework.Compression.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.Compression\obj\Release\Framework.Compression.pdb

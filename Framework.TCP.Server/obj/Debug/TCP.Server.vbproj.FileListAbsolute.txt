@@ -1,0 +1,9 @@
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP\TCP.Server\bin\Debug\TCP.Server.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP\TCP.Server\bin\Debug\TCP.Server.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP\TCP.Server\bin\Debug\TCP.Protocol.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP\TCP.Server\bin\Debug\TCP.Protocol.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP\TCP.Server\obj\Debug\TCP.Server.vbprojResolveAssemblyReference.cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP\TCP.Server\obj\Debug\TCP.Server.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP\TCP.Server\obj\Debug\TCP.Server.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP\TCP.Server\obj\Debug\TCP.Server.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP\TCP.Server\obj\Debug\TCP.Server.Resources.resources

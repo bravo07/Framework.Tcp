@@ -1,0 +1,7 @@
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.ConfigProvider\bin\Release\Framework.ConfigProvider.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.ConfigProvider\bin\Release\Framework.ConfigProvider.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.ConfigProvider\obj\Release\Framework.ConfigProvider.Resources.resources
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.ConfigProvider\obj\Release\Framework.ConfigProvider.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.ConfigProvider\obj\Release\Framework.ConfigProvider.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.ConfigProvider\obj\Release\Framework.ConfigProvider.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.ConfigProvider\obj\Release\Framework.ConfigProvider.vbprojResolveAssemblyReference.cache

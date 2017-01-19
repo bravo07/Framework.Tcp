@@ -1,0 +1,15 @@
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.TCP.Client.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.TCP.Client.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.TCP.Protocol.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.Threads.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.Serialization.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.Compression.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.TCP.Protocol.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.Threads.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.Serialization.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\bin\Release\Framework.Compression.pdb
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\obj\Release\Framework.TCP.Client.vbprojResolveAssemblyReference.cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\obj\Release\Framework.TCP.Client.Resources.resources
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\obj\Release\Framework.TCP.Client.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\obj\Release\Framework.TCP.Client.dll
+C:\Users\Barret\Documents\Visual Studio 2013\Projects\Framework\Framework.TCP.Client\obj\Release\Framework.TCP.Client.pdb
