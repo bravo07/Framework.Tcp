@@ -7,9 +7,9 @@ Public Class Handler
     Inherits ClientBase
     Public Event Event_Status(EventType As TcpEvent, TcpEventArgs As TcpEventArgs)
     Sub New()
-        Me.Active				= False
-        Me.Accepted				= False
-        Me.SendQueue			= New Queue(Of Byte())
+		Me.Active = False
+		Me.Accepted = False
+		Me.SendQueue = New Queue(Of Byte())
         Me.GracefulShutdown		= New ManualResetEvent(False)
     End Sub
 #Region "Routines"
@@ -31,8 +31,8 @@ Public Class Handler
                 Me.Shutdown()
                 Me.GracefulShutdown.WaitOne()
             End If
-			Me.EndPoint		= New IPEndPoint(IPAddress.Parse(ipStr), Port)
-            Me.Socket		= New Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp)
+			Me.EndPoint = New IPEndPoint(IPAddress.Parse(ipStr), Port)
+			Me.Socket = New Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp)
             Me.Socket.SetIPProtectionLevel(Config.NAT_TRAVERSAL)
             Me.Socket.SetSocketOption(Config.SOCKET_LEVEL, Config.SOCKET_OPT, Config.SOCKET_VALUE)
             RaiseEvent Event_Status(TcpEvent.CONNECTING, New TcpClientEvent(Me))
