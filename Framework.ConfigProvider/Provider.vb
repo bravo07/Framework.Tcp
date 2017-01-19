@@ -8,7 +8,7 @@ Public NotInheritable Class Provider
 		Me.Filename = Filename
 		Me.ResetEvent = New ManualResetEvent(False)
 		Me.CheckSum = Me.ComputeChecksum(File.ReadAllBytes(Filename))
-		BackgroundWorker.Run(Sub() Me.Idler())
+		Threads.BackgroundWorker.Run(Sub() Me.Idler())
 	End Sub
 	Public Function TryGet(Of T)(key As String) As T
 		If (Me.ContainsKey(key) AndAlso TypeOf Me(key).Value Is T) Then
@@ -32,7 +32,7 @@ Public NotInheritable Class Provider
 			Me.Active = True
 			Me.ResetEvent.Reset()
 			Do
-				Delayed.Run(New Delayed.TaskDelegate(AddressOf Me.Checkup), 500).WaitOne()
+				Threads.Delayed.Run(New Threads.Delayed.TaskDelegate(AddressOf Me.Checkup), 500).WaitOne()
 			Loop While Me.Active
 		Finally
 			Me.ResetEvent.Set()
