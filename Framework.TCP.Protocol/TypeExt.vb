@@ -62,7 +62,7 @@ Public Module TypeExt
 	<Runtime.CompilerServices.Extension>
 	Public Function Randomize(ByRef src() As Byte) As Byte()
 		Using rng As New Security.Cryptography.RNGCryptoServiceProvider()
-			rng.GetNonZeroBytes(src) 
+			rng.GetNonZeroBytes(src)
 			Return src
 		End Using
 	End Function
