@@ -1,12 +1,12 @@
 ﻿Imports System.Net
 Imports System.Net.Sockets
 Public MustInherit Class ClientBase
-    Sub New()
-        Me.m_buffersize = Config.BUFFER_SIZE
-		Me.m_uncid = Me.NewGuid(8)
-        Me.ReadBuffer = New Byte() {}
-        Me.WriteBuffer = New Byte(Me.BufferSize - 1) {}
-    End Sub
+	Sub New()
+		Me.m_uncid = New Byte(8) {}.Randomize
+		Me.m_buffersize = Config.BUFFER_SIZE
+		Me.ReadBuffer = New Byte() {}
+		Me.WriteBuffer = New Byte(Me.BufferSize - 1) {}
+	End Sub
 #Region "Routines"
     Public Sub Reallocate(bType As Buffer)
         If (bType = Buffer.Reader) Then
@@ -25,10 +25,6 @@ Public MustInherit Class ClientBase
         Array.Resize(Of Byte)(Me.ReadBuffer, Me.ReadBuffer.Length + Me.WriteBuffer.Length)
         Me.WriteBuffer.CopyTo(Me.ReadBuffer, offset)
     End Sub
-	Public Function NewGuid(len As Integer) as byte()
-		Dim buffer() As Byte = New Byte(len) {}
-		Return buffer.Randomize
-	End Function
 #End Region
 #Region "Properties"
     Private m_readbuffer As Byte()
