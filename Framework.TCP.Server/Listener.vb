@@ -7,11 +7,11 @@ Imports Framework.TCP.Protocol
 Public Class Listener
     Public Event Event_Status(EventType As TcpEvent, TcpEventArgs As TcpEventArgs)
     Sub New()
-        Me.Active				= False
-		Me.Clients				= New List(Of Handler)
-        Me.GracefulShutdown		= New ManualResetEvent(False)
-        Me.BusyAcceptingClient	= New ManualResetEvent(False)
-    End Sub
+		Me.Active = False
+		Me.Clients = New List(Of Handler)
+		Me.GracefulShutdown = New ManualResetEvent(False)
+		Me.BusyAcceptingClient = New ManualResetEvent(False)
+	End Sub
 #Region "Routines"
     Public Sub Start(Port As Integer)
 		If (Port < Config.PORT_SAFERANGE) then
