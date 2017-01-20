@@ -7,21 +7,21 @@ Public Class frmMain
     Public Clients As List(Of TCP.Client.Handler)
     Public WithEvents Server As TCP.Server.Listener
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-		Me.Server = New TCP.Server.Listener
+
+		Me.Server = New TCP.Server.Listener(".\default.cfg")
         AddHandler Me.Server.Event_Status, AddressOf Me.Event_Status
 
 		Me.Clients = New List(Of TCP.Client.Handler)
 
-        With Me.lvServerClients
-            .GridLines		= True
-            .MultiSelect	= False
-			.View			= View.Details
-            .Columns.Add("Client Unique ID", .ClientRectangle.Width \ 4)
-            .Columns.Add("Client End Point", .ClientRectangle.Width \ 4)
-            .Columns.Add("Uptime (latency)", .ClientRectangle.Width \ 2)
-        End With
-
-    End Sub
+		With Me.lvServerClients
+			.GridLines = True
+			.MultiSelect = False
+			.View = View.Details
+			.Columns.Add("Client Unique ID", .ClientRectangle.Width \ 4)
+			.Columns.Add("Client End Point", .ClientRectangle.Width \ 4)
+			.Columns.Add("Uptime (latency)", .ClientRectangle.Width \ 2)
+		End With
+	End Sub
     Private Sub frmMain_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
         If (Me.Server.Active) Then
             Me.btnStop.PerformClick()
@@ -47,17 +47,17 @@ Public Class frmMain
         If (Not Me.IsDisposed AndAlso Me.InvokeRequired) Then
             Me.Invoke(Sub() Me.UpdateGUI(bool))
         Else
-            If (bool) Then
-                Me.btnStart.Enabled		= False
-                Me.btnStop.Enabled		= True
+			If (bool) Then
+				Me.btnStart.Enabled = False
+				Me.btnStop.Enabled = True
 				Me.btnAddClient.Enabled = True
-                Me.Refresher.Start()
-            Else
-                Me.btnStart.Enabled		= True
-                Me.btnStop.Enabled		= False
+				Me.Refresher.Start()
+			Else
+				Me.btnStart.Enabled = True
+				Me.btnStop.Enabled = False
 				Me.btnAddClient.Enabled = False
-                Me.Refresher.Stop()
-            End If
+				Me.Refresher.Stop()
+			End If
         End If
     End Sub
     Public Sub LogMessage(Message As String)

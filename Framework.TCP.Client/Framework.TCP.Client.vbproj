@@ -106,6 +106,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Framework.ConfigProvider\Framework.ConfigProvider.vbproj">
+      <Project>{9ff73dd5-1a95-42f9-a6a1-70e3ede7608a}</Project>
+      <Name>Framework.ConfigProvider</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Framework.TCP.Protocol\Framework.TCP.Protocol.vbproj">
       <Project>{a5bc3ce4-3871-442e-8713-f8c9d7c6607a}</Project>
       <Name>Framework.TCP.Protocol</Name>

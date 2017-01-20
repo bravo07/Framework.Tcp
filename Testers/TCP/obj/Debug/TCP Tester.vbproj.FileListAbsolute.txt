@@ -19,3 +19,23 @@ c:\Users\Barret\Documents\Visual Studio 2013\Projects\TCP Tester\TCP Tester\bin\
 C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\TCP Tester.exe.config
 C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP Tester.exe
 C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP Tester.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\TCP Tester.exe
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\TCP Tester.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.Compression.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.ConfigProvider.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.Serialization.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.TCP.Client.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.TCP.Protocol.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.TCP.Server.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.Threads.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.Compression.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.ConfigProvider.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.Serialization.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.TCP.Client.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.TCP.Protocol.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.TCP.Server.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\bin\Debug\Framework.Threads.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP Tester.vbprojResolveAssemblyReference.cache
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP_Tester.frmMain.resources
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP_Tester.Resources.resources
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP Tester.vbproj.GenerateResource.Cache
