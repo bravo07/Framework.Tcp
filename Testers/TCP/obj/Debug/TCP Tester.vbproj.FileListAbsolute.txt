@@ -39,3 +39,6 @@ C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP Tes
 C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP_Tester.frmMain.resources
 C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP_Tester.Resources.resources
 C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Testers\TCP\obj\Debug\TCP Tester.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\GitHub\Framework\Testers\TCP\bin\Debug\TCP Tester.exe.config
+C:\Users\Barret\Documents\GitHub\Framework\Testers\TCP\obj\Debug\TCP Tester.exe
+C:\Users\Barret\Documents\GitHub\Framework\Testers\TCP\obj\Debug\TCP Tester.pdb

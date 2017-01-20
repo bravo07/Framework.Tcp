@@ -8,7 +8,7 @@ Public Class frmMain
     Public WithEvents Server As TCP.Server.Listener
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-		Me.Server = New TCP.Server.Listener(".\default.cfg")
+		Me.Server = New TCP.Server.Listener
         AddHandler Me.Server.Event_Status, AddressOf Me.Event_Status
 
 		Me.Clients = New List(Of TCP.Client.Handler)

@@ -5,7 +5,7 @@ Imports Framework
 Imports Framework.TCP.Protocol
 Public Class Listener
 	Public Event Event_Status(EventType As TcpEvent, TcpEventArgs As TcpEventArgs)
-	Sub New(Filename As String)
+	Sub New()
 		Me.Active = False
 		Me.Clients = New List(Of Handler)
 		Me.GracefulShutdown = New ManualResetEvent(False)
