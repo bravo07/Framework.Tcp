@@ -3,8 +3,6 @@ Imports System.Net.Sockets
 Imports System.Threading
 Imports Framework
 Imports Framework.TCP.Protocol
-Imports Framework.ConfigProvider
-
 Public Class Handler
 	Inherits ClientBase
 	Public Event Event_Status(EventType As TcpEvent, TcpEventArgs As TcpEventArgs)
@@ -13,10 +11,6 @@ Public Class Handler
 		Me.Accepted = False
 		Me.SendQueue = New Queue(Of Byte())
 		Me.GracefulShutdown = New ManualResetEvent(False)
-
-		' Testing implementation for config provider
-		Me.cfg = New ConfigProvider.Parser(".\default.cfg").Create
-
 	End Sub
 #Region "Routines"
 	Public Sub Connect(ipStr As String, Port As Integer)
@@ -47,7 +41,7 @@ Public Class Handler
 			If Not result.AsyncWaitHandle.WaitOne(Timeout, True) Or (Not Me.Socket.IsConnected) Then
 				Me.Socket.Close()
 				Me.Socket.Dispose()
-				Throw New Exception(Me.cfg("error.reqtimeout").ToString)
+				Throw New Exception(Config.ERROR_REQTIMEOUT)
 			Else
 				Me.Active = True
 				Threads.BackgroundWorker.Run(Sub() Me.Worker())
@@ -92,7 +86,7 @@ Public Class Handler
 					handler.StartReceiving(New AsyncCallback(AddressOf Me.ReceiveCallback))
 				Else
 					handler.Reallocate(Buffer.Both)
-					RaiseEvent Event_Status(TcpEvent.ERR, New TcpClientEvent(Me, New Exception(Me.cfg("error.badpacket").ToString)))
+					RaiseEvent Event_Status(TcpEvent.ERR, New TcpClientEvent(Me, New Exception(Config.ERROR_BADPACKET)))
 				End If
 			Else
 				If (handler.ReadBuffer.Length <= Config.PACKET_MAXSIZE) Then
@@ -100,7 +94,7 @@ Public Class Handler
 					Me.StartReceiving(New AsyncCallback(AddressOf Me.ReceiveCallback))
 				Else
 					handler.Shutdown()
-					RaiseEvent Event_Status(TcpEvent.ERR, New TcpClientEvent(Me, New Exception(Me.cfg("error.maxreceived").ToString)))
+					RaiseEvent Event_Status(TcpEvent.ERR, New TcpClientEvent(Me, New Exception(Config.ERROR_MAXREICEIVE)))
 				End If
 			End If
 		End If
@@ -208,15 +202,6 @@ Public Class Handler
 		End Get
 		Set(value As Boolean)
 			Me.m_accepted = value
-		End Set
-	End Property
-	Private m_cfgprovider As Provider
-	Protected Friend Property cfg As Provider
-		Get
-			Return Me.m_cfgprovider
-		End Get
-		Set(value As Provider)
-			Me.m_cfgprovider = value
 		End Set
 	End Property
 #End Region

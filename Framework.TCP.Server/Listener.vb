@@ -1,10 +1,8 @@
 ﻿Imports System.Net
 Imports System.Net.Sockets
 Imports System.Threading
-Imports System.Windows.Forms
 Imports Framework
 Imports Framework.TCP.Protocol
-Imports Framework.ConfigProvider
 Public Class Listener
 	Public Event Event_Status(EventType As TcpEvent, TcpEventArgs As TcpEventArgs)
 	Sub New(Filename As String)
@@ -12,15 +10,11 @@ Public Class Listener
 		Me.Clients = New List(Of Handler)
 		Me.GracefulShutdown = New ManualResetEvent(False)
 		Me.BusyAcceptingClient = New ManualResetEvent(False)
-
-		' Testing implementation for config provider
-		Me.cfg = New ConfigProvider.Parser(Filename).Create
-
 	End Sub
 #Region "Routines"
 	Public Sub Start(Port As Integer)
-		If (Port < Me.cfg("port.saferange").ToInt32) Then
-			Throw New Exception(Me.cfg("error.badport").ToString)
+		If (Port < Config.PORT_SAFERANGE) Then
+			Throw New Exception(Config.ERR_BADPORT)
 		End If
 		Threads.BackgroundWorker.Run(Sub() Me.Worker(Port))
 	End Sub
@@ -89,7 +83,7 @@ Public Class Listener
 					handler.BeginReceive(New AsyncCallback(AddressOf Me.ReceiveCallback))
 				Else
 					handler.Reallocate(Buffer.Both)
-					RaiseEvent Event_Status(TcpEvent.ERR, New TcpServerEvent(Me, New Exception(Me.cfg("error.badpacket").ToString)))
+					RaiseEvent Event_Status(TcpEvent.ERR, New TcpServerEvent(Me, New Exception(Config.ERROR_BADPACKET)))
 				End If
 			Else
 				If (handler.ReadBuffer.Length <= Config.PACKET_MAXSIZE) Then
@@ -97,7 +91,7 @@ Public Class Listener
 					handler.BeginReceive(New AsyncCallback(AddressOf Me.ReceiveCallback))
 				Else
 					Me.Shutdown(handler)
-					RaiseEvent Event_Status(TcpEvent.ERR, New TcpServerEvent(Me, New Exception(Me.cfg("error.maxreceived").ToString)))
+					RaiseEvent Event_Status(TcpEvent.ERR, New TcpServerEvent(Me, New Exception(Config.ERROR_MAXREICEIVE)))
 				End If
 			End If
 		End If
@@ -136,7 +130,7 @@ Public Class Listener
 					Return
 				Else
 					Me.Shutdown(Handler)
-					RaiseEvent Event_Status(TcpEvent.ERR, New TcpServerEvent(Me, New Exception(Me.cfg("error.badhandshake").ToString)))
+					RaiseEvent Event_Status(TcpEvent.ERR, New TcpServerEvent(Me, New Exception(Config.ERROR_BADHANDSHAKE)))
 					Return
 				End If
 			Else
@@ -222,15 +216,6 @@ Public Class Listener
 		End Get
 		Set(value As ManualResetEvent)
 			Me.m_busyaccepting = value
-		End Set
-	End Property
-	Private m_cfgprovider As Provider
-	Protected Friend Property cfg As Provider
-		Get
-			Return Me.m_cfgprovider
-		End Get
-		Set(value As Provider)
-			Me.m_cfgprovider = value
 		End Set
 	End Property
 #End Region

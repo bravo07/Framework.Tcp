@@ -129,10 +129,6 @@
       <Project>{adced1ba-a14d-4ed8-9dc3-021718b2454b}</Project>
       <Name>Framework.Compression</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Framework.ConfigProvider\Framework.ConfigProvider.vbproj">
-      <Project>{9ff73dd5-1a95-42f9-a6a1-70e3ede7608a}</Project>
-      <Name>Framework.ConfigProvider</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Framework.Serialization\Framework.Serialization.vbproj">
       <Project>{3400904e-d089-4f46-8b2d-5af51ed0784e}</Project>
       <Name>Framework.Serialization</Name>

@@ -53,11 +53,11 @@ Public NotInheritable Class Config
 	''' Global error messages
 	''' </summary>
 	''' <remarks></remarks>
-	'Public Shared ERR_BADPORT As String = "Avoid using ports below the safe range"
-	'Public Shared ERROR_REQTIMEOUT As String = "Failed to connect, request timed out"
-	'Public Shared ERROR_BADPACKET As String = "Packet dropped, wrong checksum or missing data"
-	'Public Shared ERROR_CLIENTLOST As String = "Client dropped, lost connection"
-	'Public Shared ERROR_CLIENTTIMEOUT As String = "Client dropped, response time exceeded"
-	'Public Shared ERROR_BADHANDSHAKE As String = "Client dropped, handshake version mismatch"
-	'Public Shared ERROR_MAXREICEIVE As String = "Connection dropped, buffer limit exceeded"
+	Public Shared ERR_BADPORT As String = "Avoid using ports below the safe range"
+	Public Shared ERROR_REQTIMEOUT As String = "Failed to connect, request timed out"
+	Public Shared ERROR_BADPACKET As String = "Packet dropped, wrong checksum or missing data"
+	Public Shared ERROR_CLIENTLOST As String = "Client dropped, lost connection"
+	Public Shared ERROR_CLIENTTIMEOUT As String = "Client dropped, response time exceeded"
+	Public Shared ERROR_BADHANDSHAKE As String = "Client dropped, handshake version mismatch"
+	Public Shared ERROR_MAXREICEIVE As String = "Connection dropped, buffer limit exceeded"
 End Class

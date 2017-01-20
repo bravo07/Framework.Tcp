@@ -1,8 +1,6 @@
-﻿Imports System.Net.Sockets
+﻿Imports System.Net
+Imports System.Net.Sockets
 Imports Framework.TCP.Protocol
-Imports System.Net
-Imports Framework.ConfigProvider
-
 Public Class Handler
 	Inherits ClientBase
 	Public Delegate Sub ClientDroppedCallback(Handler As Handler, Message As String, DropConnection As Boolean)
@@ -15,10 +13,6 @@ Public Class Handler
 		Me.EndPoint = Socket.Client.RemoteEndPoint
 		Me.m_firstseen = DateTime.Now
 		Me.m_lastresponse = DateTime.Now
-
-		' Testing implementation for config provider
-		Me.cfg = New ConfigProvider.Parser(".\default.cfg").Create
-
 	End Sub
 #Region "Routines"
 	Public Sub Shutdown()
@@ -55,10 +49,10 @@ Public Class Handler
 		If (Me.Socket IsNot Nothing) Then
 			If (Not Me.Socket.IsConnected) Then
 				Me.Active = False
-				Me.ClientDropped.Invoke(Me, Me.cfg("error.clientlost").ToString, True)
+				Me.ClientDropped.Invoke(Me, Config.ERROR_CLIENTLOST, True)
 			ElseIf ((DateTime.Now - Me.LastResponse).Seconds >= Config.RESPONSE_MAXTIME) Then
 				Me.Active = False
-				Me.ClientDropped.Invoke(Me, Me.cfg("error.clienttimeout").ToString, True)
+				Me.ClientDropped.Invoke(Me, Config.ERROR_CLIENTTIMEOUT, True)
 			ElseIf (Me.Socket.IsConnected AndAlso Me.SendQueue.Any) Then
 				Me.BeginSend(Me.SendQueue.Dequeue, SendCallback)
 			End If
@@ -133,15 +127,6 @@ Public Class Handler
 		End Get
 		Set(value As Boolean)
 			Me.m_accepted = value
-		End Set
-	End Property
-	Private m_cfgprovider As Provider
-	Protected Friend Property cfg As Provider
-		Get
-			Return Me.m_cfgprovider
-		End Get
-		Set(value As Provider)
-			Me.m_cfgprovider = value
 		End Set
 	End Property
 #End Region
